@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cordic"
+version = "0.1.0"
+authors = [
+  { name="kwan3217", email="kwan3217@gmail.com" },
+]
+description = "CORDIC algorithm exploration"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+]
+dependencies=[
+    "numpy",
+    "matplotlib",
+    "pytest",
+]
+
+[project.urls]
+Homepage = "https://github.com/kwan3217/cordic/"
+Issues = "https://github.com/kwan3217/cordic/issues"
